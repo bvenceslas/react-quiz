@@ -1,4 +1,4 @@
-# LearnNode
+# LeaNode
 
 Teaching Essential Notions of Nodejs
 
