@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/bvenceslas/LearnNode/issues"
   },
-  "homepage": "https://github.com/bvenceslas/LearnNode#readme"
+  "homepage": "https://github.com/bvenceslas/LearnNode#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
