@@ -1,4 +1,4 @@
-# LeaNode
+# NodeApp
 
 Teaching Essential Notions of Nodejs
 
