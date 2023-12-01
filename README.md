@@ -1,6 +1,6 @@
-# NodeApp
+# react-quiz
 
-Teaching Essential Notions of Nodejs
+React Quiz App
 
 ## Getting Started
 
@@ -8,8 +8,7 @@ The project is public
 
 ## Built With
 
-- NodeJS
-- express
+- ReactJS
  
 ## Author
 
