@@ -1,15 +1,17 @@
 # react-quiz
 
-React Quiz App
+React Quiz App with state management
 
 ## Getting Started
 
 The project is public
 
+## Preview
+
 ## Built With
 
-- ReactJS
- 
+- ReactJS `create-react-app@5.0`
+
 ## Author
 
 👤 Venceslas Burongu
@@ -25,4 +27,3 @@ Contributions, issues and feature requests are welcome!!!
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
