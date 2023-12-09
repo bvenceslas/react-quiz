@@ -2,6 +2,10 @@
 
 React Quiz App with state management
 
+## Preview
+
+[React Quiz](https://bvenceslas.github.io/react-quiz/)
+
 ## Getting Started
 
 The project is public

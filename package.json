@@ -1,4 +1,5 @@
 {
+  "homepage": "https://bvenceslas.github.io/react-quiz/",
   "name": "15-react-quiz",
   "version": "0.1.0",
   "private": true,
@@ -6,6 +7,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^6.1.0",
     "json-server": "^0.17.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -13,7 +15,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"json-server --watch data/questions.json --port 8000\" \"npm run react-start\"",
+    "react-start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
